@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	overflow: hidden;
+	flex-wrap: wrap;
+}
+.start-button{
+	width: 50px;
+	height: 50px;
+	font-size: 1.25rem;
+	font-family: "poppins";
+	transition: .2s;
+	border-radius: 50%;
+	border: 0px solid black;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.title{
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-family: "Poppins";
+}
+.container{
+	border: 1px black solid;
+	padding: 1rem;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+}
